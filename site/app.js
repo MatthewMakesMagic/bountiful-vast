@@ -82,11 +82,12 @@
       <div class="st-crumbs"><a href="#/">Shop</a><span>/</span><a href="#/?m=${it.market}">${esc(m.name)}</a><span>/</span><span>${esc(it.name)}</span></div>
       <div class="st-item">
         <div class="st-media">
-          <div class="st-photo">${img(it)}</div>
-          <a class="st-moment" href="${esc(it.youtube)}" target="_blank" rel="noopener">
-            <img src="${esc(it.still)}" alt="${esc(it.name)} at the stall" loading="lazy" />
-            <div><div class="st-kicker">At the stall</div><p>Seen at ${mmss(it.yt_at)} in the ${esc(m.name)} walkthrough. Watch the moment on YouTube &rarr;</p></div>
-          </a>
+          <div class="st-photo" data-zoomwrap>${img(it)}</div>
+          <div class="st-moment">
+            <img src="${esc(it.still)}" alt="${esc(it.name)} at the stall" loading="lazy" data-zoom="${esc(it.still.replace('/stills/', '/stills_hd/'))}" data-cap="${esc(it.name)} at the stall, ${esc(m.name)}, ${mmss(it.yt_at)}" data-yt="${esc(it.youtube)}" />
+            <div><div class="st-kicker">At the stall</div><p>Seen at ${mmss(it.yt_at)} in the ${esc(m.name)} walkthrough.</p>
+              <a class="st-link" href="${esc(it.youtube)}" target="_blank" rel="noopener">Watch the moment on YouTube &rarr;</a></div>
+          </div>
         </div>
         <div class="st-info">
           <div class="st-kicker">${esc(m.place)}</div>
@@ -138,6 +139,28 @@
       <p style="margin-top:28px">Source walkthroughs are public YouTube videos; every listing links to its moment rather than re-hosting the footage. Code: <a class="st-link" href="https://github.com/MatthewMakesMagic/bountiful-vast">github.com/MatthewMakesMagic/bountiful-vast</a></p>
     </div></main>`;
   }
+
+  // ---------- lightbox: click any product photo or market still to see it large ----------
+  function openZoom(src, cap, yt) {
+    let lb = document.getElementById('lb');
+    if (!lb) {
+      lb = document.createElement('div'); lb.id = 'lb'; lb.className = 'lb';
+      lb.innerHTML = '<button class="lb-x" aria-label="Close">&times;</button><figure><img alt="" /><figcaption></figcaption></figure>';
+      document.body.appendChild(lb);
+      lb.addEventListener('click', e => { if (e.target === lb || e.target.classList.contains('lb-x')) lb.classList.remove('on'); });
+      addEventListener('keydown', e => { if (e.key === 'Escape') lb.classList.remove('on'); });
+    }
+    lb.querySelector('img').src = src;
+    lb.querySelector('figcaption').innerHTML = esc(cap || '') + (yt ? ` <a class="st-link" href="${esc(yt)}" target="_blank" rel="noopener">Watch the moment on YouTube &rarr;</a>` : '');
+    lb.classList.add('on');
+  }
+  document.addEventListener('click', e => {
+    const t = e.target.closest('[data-zoom], [data-zoomwrap] img');
+    if (!t) return;
+    e.preventDefault();
+    const it = byId(decodeURIComponent((location.hash.split('/item/')[1] || '')));
+    openZoom(t.dataset.zoom || t.currentSrc || t.src, t.dataset.cap || (it ? it.name : ''), t.dataset.yt || '');
+  });
 
   function route() {
     const h = location.hash.replace(/^#/, '') || '/';

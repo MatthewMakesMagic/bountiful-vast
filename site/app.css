@@ -216,3 +216,16 @@ button.st-btn { border: 0; cursor: pointer; font-family: inherit; }
 
 .st-moment { text-decoration: none; color: inherit; }
 .st-moment img { width: 220px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 2px; }
+.st-photo img, .st-moment img { cursor: zoom-in; }
+.st-moment { display: grid; grid-template-columns: 220px 1fr; gap: 18px; align-items: center; margin-top: 18px; }
+.st-moment .st-link { display: inline-block; margin-top: 8px; font-size: 14px; }
+.lb { position: fixed; inset: 0; z-index: 10000; background: rgba(20, 16, 11, .92); display: none; align-items: center; justify-content: center; padding: 40px; }
+.lb.on { display: flex; }
+.lb figure { margin: 0; max-width: min(1200px, 100%); max-height: 100%; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.lb img { max-width: 100%; max-height: calc(100vh - 140px); object-fit: contain; border-radius: 2px; background: #efe8dc; }
+.lb figcaption { color: #f4ede1; font-size: 15px; text-align: center; }
+.lb figcaption .st-link { color: #f4ede1; margin-left: 12px; }
+.lb-x { position: absolute; top: 18px; right: 24px; background: none; border: 0; color: #f4ede1; font-size: 40px; cursor: pointer; line-height: 1; }
+@media (max-width: 640px) { .st-moment { grid-template-columns: 1fr; } .st-moment img { width: 100%; } }
+.lb, .lb figcaption { font-family: "Hanken Grotesk", system-ui, sans-serif; }
+.lb, .lb figcaption { font-family: "Hanken Grotesk", system-ui, sans-serif; }
