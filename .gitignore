@@ -1,0 +1,6 @@
+*.mp4
+*.mov
+bountiful_out/
+__pycache__/
+*.config
+.env
