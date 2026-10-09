@@ -62,7 +62,7 @@
           <h1>Things you can't buy online.</h1>
           <p class="st-lead">${items.length} one-of-a-kind pieces from 4 markets with no online store, from a Chelsea Flea vintage table to a Chiang Mai beetle-specimen stall.</p>
           <p class="st-body">Every piece was filmed once, catalogued by NVIDIA Cosmos on CoreWeave GPUs and stored in VAST. Each listing links to the exact second it appears on camera.</p>
-          <div class="st-actions"><a class="st-btn" href="#/?m=chelsea">Shop New York</a><a class="st-link" href="#/?m=chiangmai">Shop Chiang Mai</a></div>
+          <div class="st-actions"><a class="st-btn" href="#/shop?m=chelsea">Shop New York</a><a class="st-link" href="#/shop?m=chiangmai">Shop Chiang Mai</a></div>
         </div>
         <div class="st-hero-art">${pick.map((it, i) => `<a class="st-hero-${'abc'[i]}" href="#/item/${encodeURIComponent(it.id)}">${img(it)}<span>${esc(it.name)}</span></a>`).join('')}</div>
       </div></section>`}
@@ -76,18 +76,18 @@
     $('#tabs').addEventListener('click', e => {
       const b = e.target.closest('button'); if (!b) return;
       const p = new URLSearchParams(); if (b.dataset.m) p.set('m', b.dataset.m); if (q) p.set('q', q);
-      location.hash = '#/' + (p.toString() ? '?' + p : '');
+      location.hash = '#/shop' + (p.toString() ? '?' + p : '');
     });
   }
 
   function renderItem(id) {
     setNav('shop');
     const it = byId(id);
-    if (!it) { view().innerHTML = `<main class="st-page st-wrap"><p class="st-empty">That piece is not in the catalogue. <a class="st-link" href="#/">Back to the shop</a></p></main>`; return; }
+    if (!it) { view().innerHTML = `<main class="st-page st-wrap"><p class="st-empty">That piece is not in the catalogue. <a class="st-link" href="#/shop">Back to the shop</a></p></main>`; return; }
     const m = market(it.market), fp = fmtPrice(it);
     const more = items.filter(i => i.market === it.market && i.id !== it.id).slice(0, 8);
     view().innerHTML = `<main class="st-page"><div class="st-wrap">
-      <div class="st-crumbs"><a href="#/">Shop</a><span>/</span><a href="#/?m=${it.market}">${esc(m.name)}</a><span>/</span><span>${esc(it.name)}</span></div>
+      <div class="st-crumbs"><a href="#/shop">Shop</a><span>/</span><a href="#/shop?m=${it.market}">${esc(m.name)}</a><span>/</span><span>${esc(it.name)}</span></div>
       <div class="st-item">
         <div class="st-media">
           <div class="st-photo" data-zoomwrap>${img(it)}</div>
@@ -102,7 +102,7 @@
           <h1>${esc(it.name)}</h1>
           <div class="st-price">${esc(fp.long)}${fp.local ? `<span class="st-price-local">${esc(fp.local)}</span>` : ''}<span class="st-price-note">Estimated asking price</span></div>
           <div class="st-avail"><i></i>One of a kind, seen at the stall</div>
-          <div class="st-actions" style="margin-top:22px"><button class="st-btn" id="reserve">Reserve this piece</button><a class="st-link" href="#/?m=${it.market}">More from this market</a></div>
+          <div class="st-actions" style="margin-top:22px"><button class="st-btn" id="reserve">Reserve this piece</button><a class="st-link" href="#/shop?m=${it.market}">More from this market</a></div>
           <p class="st-reserved" id="reserved" hidden>Reserved. A local scout will check it is still on the table and send you a photo before you pay.</p>
           <dl class="st-specs">
             <div><dt>Category</dt><dd>${esc(it.category)}</dd></div>
@@ -113,9 +113,34 @@
           <p class="st-prov">Catalogued from the walkthrough video by NVIDIA Cosmos Reason on CoreWeave GPUs, written up by Llama 3.3 70B on Weights &amp; Biases Inference, indexed with Cosmos Embed and stored in VastDB. Studio photo re-shot from the video frame.</p>
         </div>
       </div>
-      ${more.length ? `<section class="st-sec"><div class="st-sec-head"><h2>More from ${esc(m.name)}</h2><a class="st-link" href="#/?m=${it.market}">All pieces</a></div><div class="st-grid">${more.map(card).join('')}</div></section>` : ''}
+      ${more.length ? `<section class="st-sec"><div class="st-sec-head"><h2>More from ${esc(m.name)}</h2><a class="st-link" href="#/shop?m=${it.market}">All pieces</a></div><div class="st-grid">${more.map(card).join('')}</div></section>` : ''}
     </div></main>`;
     $('#reserve').addEventListener('click', e => { e.currentTarget.textContent = 'Reserved'; e.currentTarget.disabled = true; $('#reserved').hidden = false; });
+    scrollTo(0, 0);
+  }
+
+  // ---------- opening page: the stage intro, one screen, then into any market ----------
+  const TILE = { chelsea: 'chelsea-flea-005', kerobokan: 'kerobokan-furniture-street-011', chiangmai: 'chiang-mai-night-market-022', bantawai: 'ban-tawai-handicraft-village-012' };
+  function renderOpen() {
+    setNav('');
+    const n = k => items.filter(i => i.market === k).length;
+    view().innerHTML = `<main class="op">
+      <div class="op-left">
+        <a class="st-logo" href="#/shop">Bountiful <small>on VAST</small></a>
+        <div>
+          <div class="st-kicker">Things you can't buy online</div>
+          <h1>Shop the world.</h1>
+          <p class="op-lead">${items.length} one-of-a-kind pieces from four markets with no online store. Filmed once, catalogued by NVIDIA Cosmos on CoreWeave GPUs, stored in VAST.</p>
+          <div class="st-actions"><a class="st-btn" href="#/shop">Shop all ${items.length} pieces &rarr;</a></div>
+        </div>
+        <a class="op-qr" href="https://www.linkedin.com/in/matthewpangia/" target="_blank" rel="noopener">
+          <span class="op-qr-code"><img src="linkedin-qr.svg" alt="QR code for linkedin.com/in/matthewpangia" /></span>
+          <span><b>Add me on LinkedIn</b><small>linkedin.com/in/matthewpangia</small></span>
+        </a>
+      </div>
+      <div class="op-markets">${MARKETS.map(m => { const it = byId(TILE[m.key]); return `<a href="#/shop?m=${m.key}">${it ? img(it) : ''}
+        <span><b>${esc(m.label)}</b><small>${esc(m.name)} &middot; ${n(m.key)} pieces &rarr;</small></span></a>`; }).join('')}</div>
+    </main>`;
     scrollTo(0, 0);
   }
 
@@ -173,14 +198,17 @@
   function route() {
     const h = location.hash.replace(/^#/, '') || '/';
     const [path, qs] = h.split('?');
+    const open = path === '/' && !qs;
+    document.querySelector('.st').classList.toggle('is-open', open);
     if (path.startsWith('/item/')) renderItem(decodeURIComponent(path.slice(6)));
     else if (path === '/how') renderHow();
+    else if (open) renderOpen();
     else renderShop(new URLSearchParams(qs || ''));
   }
   $('#searchform').addEventListener('submit', e => {
     e.preventDefault();
     const q = $('#q').value.trim();
-    location.hash = '#/' + (q ? '?q=' + encodeURIComponent(q) : '');
+    location.hash = '#/shop' + (q ? '?q=' + encodeURIComponent(q) : '');
   });
-  fetch('catalog.json?v=1791580145').then(r => r.json()).then(d => { items = d.items || []; addEventListener('hashchange', route); route(); });
+  fetch('catalog.json?v=1791584399').then(r => r.json()).then(d => { items = d.items || []; addEventListener('hashchange', route); route(); });
 })();
