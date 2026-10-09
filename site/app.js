@@ -182,5 +182,5 @@
     const q = $('#q').value.trim();
     location.hash = '#/' + (q ? '?q=' + encodeURIComponent(q) : '');
   });
-  fetch('catalog.json').then(r => r.json()).then(d => { items = d.items || []; addEventListener('hashchange', route); route(); });
+  fetch('catalog.json?v=1791580145').then(r => r.json()).then(d => { items = d.items || []; addEventListener('hashchange', route); route(); });
 })();
