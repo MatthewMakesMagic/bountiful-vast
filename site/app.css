@@ -229,3 +229,5 @@ button.st-btn { border: 0; cursor: pointer; font-family: inherit; }
 @media (max-width: 640px) { .st-moment { grid-template-columns: 1fr; } .st-moment img { width: 100%; } }
 .lb, .lb figcaption { font-family: "Hanken Grotesk", system-ui, sans-serif; }
 .lb, .lb figcaption { font-family: "Hanken Grotesk", system-ui, sans-serif; }
+.st-price-local { font-size: 16px; color: var(--ink-2); font-weight: 400; }
+.st-band { font-weight: 600; }

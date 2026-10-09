@@ -14,7 +14,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=415s",
    "yt_at": 415,
    "still": "media/stills/ban-tawai-handicraft-village-001.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-001.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-001.jpg",
+   "price": {
+    "amount": 350,
+    "currency": "THB",
+    "usd": 10
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-002",
@@ -30,7 +35,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=415s",
    "yt_at": 415,
    "still": "media/stills/ban-tawai-handicraft-village-002.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-002.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-002.jpg",
+   "price": {
+    "amount": 450,
+    "currency": "THB",
+    "usd": 13
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-003",
@@ -46,7 +56,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=420s",
    "yt_at": 420,
    "still": "media/stills/ban-tawai-handicraft-village-003.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-003.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-003.jpg",
+   "price": {
+    "amount": 120,
+    "currency": "THB",
+    "usd": 4
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-004",
@@ -62,7 +77,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=420s",
    "yt_at": 420,
    "still": "media/stills/ban-tawai-handicraft-village-004.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-004.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-004.jpg",
+   "price": {
+    "amount": 180,
+    "currency": "THB",
+    "usd": 5
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-005",
@@ -78,7 +98,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=425s",
    "yt_at": 425,
    "still": "media/stills/ban-tawai-handicraft-village-005.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-005.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-005.jpg",
+   "price": {
+    "amount": 250,
+    "currency": "THB",
+    "usd": 7
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-006",
@@ -94,7 +119,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=425s",
    "yt_at": 425,
    "still": "media/stills/ban-tawai-handicraft-village-006.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-006.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-006.jpg",
+   "price": {
+    "amount": 1800,
+    "currency": "THB",
+    "usd": 53
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-007",
@@ -110,7 +140,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=430s",
    "yt_at": 430,
    "still": "media/stills/ban-tawai-handicraft-village-007.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-007.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-007.jpg",
+   "price": {
+    "amount": 300,
+    "currency": "THB",
+    "usd": 9
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-008",
@@ -126,7 +161,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=430s",
    "yt_at": 430,
    "still": "media/stills/ban-tawai-handicraft-village-008.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-008.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-008.jpg",
+   "price": {
+    "amount": 220,
+    "currency": "THB",
+    "usd": 6
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-009",
@@ -142,7 +182,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=435s",
    "yt_at": 435,
    "still": "media/stills/ban-tawai-handicraft-village-009.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-009.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-009.jpg",
+   "price": {
+    "amount": 200,
+    "currency": "THB",
+    "usd": 6
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-010",
@@ -158,7 +203,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=435s",
    "yt_at": 435,
    "still": "media/stills/ban-tawai-handicraft-village-010.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-010.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-010.jpg",
+   "price": {
+    "amount": 280,
+    "currency": "THB",
+    "usd": 8
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-011",
@@ -174,7 +224,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=435s",
    "yt_at": 435,
    "still": "media/stills/ban-tawai-handicraft-village-011.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-011.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-011.jpg",
+   "price": {
+    "amount": 900,
+    "currency": "THB",
+    "usd": 26
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-012",
@@ -190,7 +245,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=440s",
    "yt_at": 440,
    "still": "media/stills/ban-tawai-handicraft-village-012.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-012.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-012.jpg",
+   "price": {
+    "amount": 2500,
+    "currency": "THB",
+    "usd": 74
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-013",
@@ -206,7 +266,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=440s",
    "yt_at": 440,
    "still": "media/stills/ban-tawai-handicraft-village-013.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-013.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-013.jpg",
+   "price": {
+    "amount": 450,
+    "currency": "THB",
+    "usd": 13
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-014",
@@ -222,7 +287,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=440s",
    "yt_at": 440,
    "still": "media/stills/ban-tawai-handicraft-village-014.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-014.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-014.jpg",
+   "price": {
+    "amount": 150,
+    "currency": "THB",
+    "usd": 4
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-015",
@@ -238,7 +308,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=445s",
    "yt_at": 445,
    "still": "media/stills/ban-tawai-handicraft-village-015.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-015.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-015.jpg",
+   "price": {
+    "amount": 600,
+    "currency": "THB",
+    "usd": 18
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-016",
@@ -254,7 +329,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=445s",
    "yt_at": 445,
    "still": "media/stills/ban-tawai-handicraft-village-016.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-016.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-016.jpg",
+   "price": {
+    "amount": 200,
+    "currency": "THB",
+    "usd": 6
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-017",
@@ -270,7 +350,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=445s",
    "yt_at": 445,
    "still": "media/stills/ban-tawai-handicraft-village-017.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-017.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-017.jpg",
+   "price": {
+    "amount": 350,
+    "currency": "THB",
+    "usd": 10
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-018",
@@ -286,7 +371,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=450s",
    "yt_at": 450,
    "still": "media/stills/ban-tawai-handicraft-village-018.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-018.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-018.jpg",
+   "price": {
+    "amount": 3500,
+    "currency": "THB",
+    "usd": 103
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-019",
@@ -302,7 +392,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=450s",
    "yt_at": 450,
    "still": "media/stills/ban-tawai-handicraft-village-019.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-019.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-019.jpg",
+   "price": {
+    "amount": 1200,
+    "currency": "THB",
+    "usd": 35
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-020",
@@ -318,7 +413,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=455s",
    "yt_at": 455,
    "still": "media/stills/ban-tawai-handicraft-village-020.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-020.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-020.jpg",
+   "price": {
+    "amount": 5500,
+    "currency": "THB",
+    "usd": 162
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-021",
@@ -334,7 +434,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=455s",
    "yt_at": 455,
    "still": "media/stills/ban-tawai-handicraft-village-021.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-021.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-021.jpg",
+   "price": {
+    "amount": 90,
+    "currency": "THB",
+    "usd": 3
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-022",
@@ -350,7 +455,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=455s",
    "yt_at": 455,
    "still": "media/stills/ban-tawai-handicraft-village-022.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-022.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-022.jpg",
+   "price": {
+    "amount": 2800,
+    "currency": "THB",
+    "usd": 82
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-023",
@@ -366,7 +476,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=460s",
    "yt_at": 460,
    "still": "media/stills/ban-tawai-handicraft-village-023.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-023.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-023.jpg",
+   "price": {
+    "amount": 4500,
+    "currency": "THB",
+    "usd": 132
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-024",
@@ -382,7 +497,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=465s",
    "yt_at": 465,
    "still": "media/stills/ban-tawai-handicraft-village-024.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-024.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-024.jpg",
+   "price": {
+    "amount": 750,
+    "currency": "THB",
+    "usd": 22
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-025",
@@ -398,7 +518,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=465s",
    "yt_at": 465,
    "still": "media/stills/ban-tawai-handicraft-village-025.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-025.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-025.jpg",
+   "price": {
+    "amount": 650,
+    "currency": "THB",
+    "usd": 19
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-026",
@@ -414,7 +539,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=465s",
    "yt_at": 465,
    "still": "media/stills/ban-tawai-handicraft-village-026.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-026.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-026.jpg",
+   "price": {
+    "amount": 400,
+    "currency": "THB",
+    "usd": 12
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-027",
@@ -430,7 +560,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=470s",
    "yt_at": 470,
    "still": "media/stills/ban-tawai-handicraft-village-027.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-027.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-027.jpg",
+   "price": {
+    "amount": 3200,
+    "currency": "THB",
+    "usd": 94
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-028",
@@ -446,7 +581,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=470s",
    "yt_at": 470,
    "still": "media/stills/ban-tawai-handicraft-village-028.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-028.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-028.jpg",
+   "price": {
+    "amount": 900,
+    "currency": "THB",
+    "usd": 26
+   }
   },
   {
    "id": "ban-tawai-handicraft-village-029",
@@ -462,7 +602,12 @@
    "youtube": "https://www.youtube.com/watch?v=x42ZJ4_75l4&t=470s",
    "yt_at": 470,
    "still": "media/stills/ban-tawai-handicraft-village-029.jpg",
-   "photo": "media/photos/ban-tawai-handicraft-village-029.jpg"
+   "photo": "media/photos/ban-tawai-handicraft-village-029.jpg",
+   "price": {
+    "amount": 1800,
+    "currency": "THB",
+    "usd": 53
+   }
   },
   {
    "id": "chelsea-flea-001",
@@ -478,7 +623,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=60s",
    "yt_at": 60,
    "still": "media/stills/chelsea-flea-001.jpg",
-   "photo": "media/photos/chelsea-flea-001.jpg"
+   "photo": "media/photos/chelsea-flea-001.jpg",
+   "price": {
+    "amount": 15,
+    "currency": "USD",
+    "usd": 15
+   }
   },
   {
    "id": "chelsea-flea-002",
@@ -494,7 +644,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=60s",
    "yt_at": 60,
    "still": "media/stills/chelsea-flea-002.jpg",
-   "photo": "media/photos/chelsea-flea-002.jpg"
+   "photo": "media/photos/chelsea-flea-002.jpg",
+   "price": {
+    "amount": 180,
+    "currency": "USD",
+    "usd": 180
+   }
   },
   {
    "id": "chelsea-flea-003",
@@ -510,7 +665,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=60s",
    "yt_at": 60,
    "still": "media/stills/chelsea-flea-003.jpg",
-   "photo": "media/photos/chelsea-flea-003.jpg"
+   "photo": "media/photos/chelsea-flea-003.jpg",
+   "price": {
+    "amount": 35,
+    "currency": "USD",
+    "usd": 35
+   }
   },
   {
    "id": "chelsea-flea-004",
@@ -526,7 +686,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=65s",
    "yt_at": 65,
    "still": "media/stills/chelsea-flea-004.jpg",
-   "photo": "media/photos/chelsea-flea-004.jpg"
+   "photo": "media/photos/chelsea-flea-004.jpg",
+   "price": {
+    "amount": 85,
+    "currency": "USD",
+    "usd": 85
+   }
   },
   {
    "id": "chelsea-flea-005",
@@ -542,7 +707,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=70s",
    "yt_at": 70,
    "still": "media/stills/chelsea-flea-005.jpg",
-   "photo": "media/photos/chelsea-flea-005.jpg"
+   "photo": "media/photos/chelsea-flea-005.jpg",
+   "price": {
+    "amount": 340,
+    "currency": "USD",
+    "usd": 340
+   }
   },
   {
    "id": "chelsea-flea-006",
@@ -558,7 +728,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=70s",
    "yt_at": 70,
    "still": "media/stills/chelsea-flea-006.jpg",
-   "photo": "media/photos/chelsea-flea-006.jpg"
+   "photo": "media/photos/chelsea-flea-006.jpg",
+   "price": {
+    "amount": 220,
+    "currency": "USD",
+    "usd": 220
+   }
   },
   {
    "id": "chelsea-flea-007",
@@ -574,7 +749,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=70s",
    "yt_at": 70,
    "still": "media/stills/chelsea-flea-007.jpg",
-   "photo": "media/photos/chelsea-flea-007.jpg"
+   "photo": "media/photos/chelsea-flea-007.jpg",
+   "price": {
+    "amount": 45,
+    "currency": "USD",
+    "usd": 45
+   }
   },
   {
    "id": "chelsea-flea-008",
@@ -590,7 +770,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=75s",
    "yt_at": 75,
    "still": "media/stills/chelsea-flea-008.jpg",
-   "photo": "media/photos/chelsea-flea-008.jpg"
+   "photo": "media/photos/chelsea-flea-008.jpg",
+   "price": {
+    "amount": 120,
+    "currency": "USD",
+    "usd": 120
+   }
   },
   {
    "id": "chelsea-flea-009",
@@ -606,7 +791,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=75s",
    "yt_at": 75,
    "still": "media/stills/chelsea-flea-009.jpg",
-   "photo": "media/photos/chelsea-flea-009.jpg"
+   "photo": "media/photos/chelsea-flea-009.jpg",
+   "price": {
+    "amount": 95,
+    "currency": "USD",
+    "usd": 95
+   }
   },
   {
    "id": "chelsea-flea-010",
@@ -622,7 +812,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=75s",
    "yt_at": 75,
    "still": "media/stills/chelsea-flea-010.jpg",
-   "photo": "media/photos/chelsea-flea-010.jpg"
+   "photo": "media/photos/chelsea-flea-010.jpg",
+   "price": {
+    "amount": 260,
+    "currency": "USD",
+    "usd": 260
+   }
   },
   {
    "id": "chelsea-flea-011",
@@ -638,7 +833,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=80s",
    "yt_at": 80,
    "still": "media/stills/chelsea-flea-011.jpg",
-   "photo": "media/photos/chelsea-flea-011.jpg"
+   "photo": "media/photos/chelsea-flea-011.jpg",
+   "price": {
+    "amount": 110,
+    "currency": "USD",
+    "usd": 110
+   }
   },
   {
    "id": "chelsea-flea-012",
@@ -654,7 +854,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=80s",
    "yt_at": 80,
    "still": "media/stills/chelsea-flea-012.jpg",
-   "photo": "media/photos/chelsea-flea-012.jpg"
+   "photo": "media/photos/chelsea-flea-012.jpg",
+   "price": {
+    "amount": 55,
+    "currency": "USD",
+    "usd": 55
+   }
   },
   {
    "id": "chelsea-flea-013",
@@ -670,7 +875,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=80s",
    "yt_at": 80,
    "still": "media/stills/chelsea-flea-013.jpg",
-   "photo": "media/photos/chelsea-flea-013.jpg"
+   "photo": "media/photos/chelsea-flea-013.jpg",
+   "price": {
+    "amount": 40,
+    "currency": "USD",
+    "usd": 40
+   }
   },
   {
    "id": "chelsea-flea-014",
@@ -686,7 +896,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=85s",
    "yt_at": 85,
    "still": "media/stills/chelsea-flea-014.jpg",
-   "photo": "media/photos/chelsea-flea-014.jpg"
+   "photo": "media/photos/chelsea-flea-014.jpg",
+   "price": {
+    "amount": 65,
+    "currency": "USD",
+    "usd": 65
+   }
   },
   {
    "id": "chelsea-flea-015",
@@ -702,7 +917,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=85s",
    "yt_at": 85,
    "still": "media/stills/chelsea-flea-015.jpg",
-   "photo": "media/photos/chelsea-flea-015.jpg"
+   "photo": "media/photos/chelsea-flea-015.jpg",
+   "price": {
+    "amount": 650,
+    "currency": "USD",
+    "usd": 650
+   }
   },
   {
    "id": "chelsea-flea-016",
@@ -718,7 +938,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=85s",
    "yt_at": 85,
    "still": "media/stills/chelsea-flea-016.jpg",
-   "photo": "media/photos/chelsea-flea-016.jpg"
+   "photo": "media/photos/chelsea-flea-016.jpg",
+   "price": {
+    "amount": 90,
+    "currency": "USD",
+    "usd": 90
+   }
   },
   {
    "id": "chelsea-flea-017",
@@ -734,7 +959,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=90s",
    "yt_at": 90,
    "still": "media/stills/chelsea-flea-017.jpg",
-   "photo": "media/photos/chelsea-flea-017.jpg"
+   "photo": "media/photos/chelsea-flea-017.jpg",
+   "price": {
+    "amount": 240,
+    "currency": "USD",
+    "usd": 240
+   }
   },
   {
    "id": "chelsea-flea-018",
@@ -750,7 +980,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=90s",
    "yt_at": 90,
    "still": "media/stills/chelsea-flea-018.jpg",
-   "photo": "media/photos/chelsea-flea-018.jpg"
+   "photo": "media/photos/chelsea-flea-018.jpg",
+   "price": {
+    "amount": 180,
+    "currency": "USD",
+    "usd": 180
+   }
   },
   {
    "id": "chelsea-flea-019",
@@ -766,7 +1001,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=95s",
    "yt_at": 95,
    "still": "media/stills/chelsea-flea-019.jpg",
-   "photo": "media/photos/chelsea-flea-019.jpg"
+   "photo": "media/photos/chelsea-flea-019.jpg",
+   "price": {
+    "amount": 60,
+    "currency": "USD",
+    "usd": 60
+   }
   },
   {
    "id": "chelsea-flea-020",
@@ -782,7 +1022,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=95s",
    "yt_at": 95,
    "still": "media/stills/chelsea-flea-020.jpg",
-   "photo": "media/photos/chelsea-flea-020.jpg"
+   "photo": "media/photos/chelsea-flea-020.jpg",
+   "price": {
+    "amount": 45,
+    "currency": "USD",
+    "usd": 45
+   }
   },
   {
    "id": "chelsea-flea-021",
@@ -798,7 +1043,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=95s",
    "yt_at": 95,
    "still": "media/stills/chelsea-flea-021.jpg",
-   "photo": "media/photos/chelsea-flea-021.jpg"
+   "photo": "media/photos/chelsea-flea-021.jpg",
+   "price": {
+    "amount": 25,
+    "currency": "USD",
+    "usd": 25
+   }
   },
   {
    "id": "chelsea-flea-022",
@@ -814,7 +1064,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=100s",
    "yt_at": 100,
    "still": "media/stills/chelsea-flea-022.jpg",
-   "photo": "media/photos/chelsea-flea-022.jpg"
+   "photo": "media/photos/chelsea-flea-022.jpg",
+   "price": {
+    "amount": 75,
+    "currency": "USD",
+    "usd": 75
+   }
   },
   {
    "id": "chelsea-flea-023",
@@ -830,7 +1085,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=100s",
    "yt_at": 100,
    "still": "media/stills/chelsea-flea-023.jpg",
-   "photo": "media/photos/chelsea-flea-023.jpg"
+   "photo": "media/photos/chelsea-flea-023.jpg",
+   "price": {
+    "amount": 40,
+    "currency": "USD",
+    "usd": 40
+   }
   },
   {
    "id": "chelsea-flea-024",
@@ -846,7 +1106,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=105s",
    "yt_at": 105,
    "still": "media/stills/chelsea-flea-024.jpg",
-   "photo": "media/photos/chelsea-flea-024.jpg"
+   "photo": "media/photos/chelsea-flea-024.jpg",
+   "price": {
+    "amount": 120,
+    "currency": "USD",
+    "usd": 120
+   }
   },
   {
    "id": "chelsea-flea-025",
@@ -862,7 +1127,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=105s",
    "yt_at": 105,
    "still": "media/stills/chelsea-flea-025.jpg",
-   "photo": "media/photos/chelsea-flea-025.jpg"
+   "photo": "media/photos/chelsea-flea-025.jpg",
+   "price": {
+    "amount": 20,
+    "currency": "USD",
+    "usd": 20
+   }
   },
   {
    "id": "chelsea-flea-026",
@@ -878,7 +1148,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=105s",
    "yt_at": 105,
    "still": "media/stills/chelsea-flea-026.jpg",
-   "photo": "media/photos/chelsea-flea-026.jpg"
+   "photo": "media/photos/chelsea-flea-026.jpg",
+   "price": {
+    "amount": 140,
+    "currency": "USD",
+    "usd": 140
+   }
   },
   {
    "id": "chelsea-flea-027",
@@ -894,7 +1169,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=110s",
    "yt_at": 110,
    "still": "media/stills/chelsea-flea-027.jpg",
-   "photo": "media/photos/chelsea-flea-027.jpg"
+   "photo": "media/photos/chelsea-flea-027.jpg",
+   "price": {
+    "amount": 12,
+    "currency": "USD",
+    "usd": 12
+   }
   },
   {
    "id": "chelsea-flea-028",
@@ -910,7 +1190,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=110s",
    "yt_at": 110,
    "still": "media/stills/chelsea-flea-028.jpg",
-   "photo": "media/photos/chelsea-flea-028.jpg"
+   "photo": "media/photos/chelsea-flea-028.jpg",
+   "price": {
+    "amount": 12,
+    "currency": "USD",
+    "usd": 12
+   }
   },
   {
    "id": "chelsea-flea-029",
@@ -926,7 +1211,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=115s",
    "yt_at": 115,
    "still": "media/stills/chelsea-flea-029.jpg",
-   "photo": "media/photos/chelsea-flea-029.jpg"
+   "photo": "media/photos/chelsea-flea-029.jpg",
+   "price": {
+    "amount": 10,
+    "currency": "USD",
+    "usd": 10
+   }
   },
   {
    "id": "chelsea-flea-030",
@@ -942,7 +1232,12 @@
    "youtube": "https://www.youtube.com/watch?v=-wbtsn3MKJ8&t=115s",
    "yt_at": 115,
    "still": "media/stills/chelsea-flea-030.jpg",
-   "photo": "media/photos/chelsea-flea-030.jpg"
+   "photo": "media/photos/chelsea-flea-030.jpg",
+   "price": {
+    "amount": 150,
+    "currency": "USD",
+    "usd": 150
+   }
   },
   {
    "id": "chiang-mai-night-market-001",
@@ -958,7 +1253,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=290s",
    "yt_at": 290,
    "still": "media/stills/chiang-mai-night-market-001.jpg",
-   "photo": "media/photos/chiang-mai-night-market-001.jpg"
+   "photo": "media/photos/chiang-mai-night-market-001.jpg",
+   "price": {
+    "amount": 150,
+    "currency": "THB",
+    "usd": 4
+   }
   },
   {
    "id": "chiang-mai-night-market-002",
@@ -974,7 +1274,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=290s",
    "yt_at": 290,
    "still": "media/stills/chiang-mai-night-market-002.jpg",
-   "photo": "media/photos/chiang-mai-night-market-002.jpg"
+   "photo": "media/photos/chiang-mai-night-market-002.jpg",
+   "price": {
+    "amount": 200,
+    "currency": "THB",
+    "usd": 6
+   }
   },
   {
    "id": "chiang-mai-night-market-003",
@@ -990,7 +1295,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=290s",
    "yt_at": 290,
    "still": "media/stills/chiang-mai-night-market-003.jpg",
-   "photo": "media/photos/chiang-mai-night-market-003.jpg"
+   "photo": "media/photos/chiang-mai-night-market-003.jpg",
+   "price": {
+    "amount": 200,
+    "currency": "THB",
+    "usd": 6
+   }
   },
   {
    "id": "chiang-mai-night-market-004",
@@ -1006,7 +1316,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=295s",
    "yt_at": 295,
    "still": "media/stills/chiang-mai-night-market-004.jpg",
-   "photo": "media/photos/chiang-mai-night-market-004.jpg"
+   "photo": "media/photos/chiang-mai-night-market-004.jpg",
+   "price": {
+    "amount": 200,
+    "currency": "THB",
+    "usd": 6
+   }
   },
   {
    "id": "chiang-mai-night-market-005",
@@ -1022,7 +1337,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=295s",
    "yt_at": 295,
    "still": "media/stills/chiang-mai-night-market-005.jpg",
-   "photo": "media/photos/chiang-mai-night-market-005.jpg"
+   "photo": "media/photos/chiang-mai-night-market-005.jpg",
+   "price": {
+    "amount": 250,
+    "currency": "THB",
+    "usd": 7
+   }
   },
   {
    "id": "chiang-mai-night-market-006",
@@ -1038,7 +1358,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=295s",
    "yt_at": 295,
    "still": "media/stills/chiang-mai-night-market-006.jpg",
-   "photo": "media/photos/chiang-mai-night-market-006.jpg"
+   "photo": "media/photos/chiang-mai-night-market-006.jpg",
+   "price": {
+    "amount": 250,
+    "currency": "THB",
+    "usd": 7
+   }
   },
   {
    "id": "chiang-mai-night-market-007",
@@ -1054,7 +1379,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=300s",
    "yt_at": 300,
    "still": "media/stills/chiang-mai-night-market-007.jpg",
-   "photo": "media/photos/chiang-mai-night-market-007.jpg"
+   "photo": "media/photos/chiang-mai-night-market-007.jpg",
+   "price": {
+    "amount": 800,
+    "currency": "THB",
+    "usd": 24
+   }
   },
   {
    "id": "chiang-mai-night-market-008",
@@ -1070,7 +1400,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=300s",
    "yt_at": 300,
    "still": "media/stills/chiang-mai-night-market-008.jpg",
-   "photo": "media/photos/chiang-mai-night-market-008.jpg"
+   "photo": "media/photos/chiang-mai-night-market-008.jpg",
+   "price": {
+    "amount": 450,
+    "currency": "THB",
+    "usd": 13
+   }
   },
   {
    "id": "chiang-mai-night-market-009",
@@ -1086,7 +1421,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=305s",
    "yt_at": 305,
    "still": "media/stills/chiang-mai-night-market-009.jpg",
-   "photo": "media/photos/chiang-mai-night-market-009.jpg"
+   "photo": "media/photos/chiang-mai-night-market-009.jpg",
+   "price": {
+    "amount": 1200,
+    "currency": "THB",
+    "usd": 35
+   }
   },
   {
    "id": "chiang-mai-night-market-010",
@@ -1102,7 +1442,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=305s",
    "yt_at": 305,
    "still": "media/stills/chiang-mai-night-market-010.jpg",
-   "photo": "media/photos/chiang-mai-night-market-010.jpg"
+   "photo": "media/photos/chiang-mai-night-market-010.jpg",
+   "price": {
+    "amount": 1500,
+    "currency": "THB",
+    "usd": 44
+   }
   },
   {
    "id": "chiang-mai-night-market-011",
@@ -1118,7 +1463,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=310s",
    "yt_at": 310,
    "still": "media/stills/chiang-mai-night-market-011.jpg",
-   "photo": "media/photos/chiang-mai-night-market-011.jpg"
+   "photo": "media/photos/chiang-mai-night-market-011.jpg",
+   "price": {
+    "amount": 1200,
+    "currency": "THB",
+    "usd": 35
+   }
   },
   {
    "id": "chiang-mai-night-market-012",
@@ -1134,7 +1484,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=310s",
    "yt_at": 310,
    "still": "media/stills/chiang-mai-night-market-012.jpg",
-   "photo": "media/photos/chiang-mai-night-market-012.jpg"
+   "photo": "media/photos/chiang-mai-night-market-012.jpg",
+   "price": {
+    "amount": 350,
+    "currency": "THB",
+    "usd": 10
+   }
   },
   {
    "id": "chiang-mai-night-market-013",
@@ -1150,7 +1505,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=310s",
    "yt_at": 310,
    "still": "media/stills/chiang-mai-night-market-013.jpg",
-   "photo": "media/photos/chiang-mai-night-market-013.jpg"
+   "photo": "media/photos/chiang-mai-night-market-013.jpg",
+   "price": {
+    "amount": 120,
+    "currency": "THB",
+    "usd": 4
+   }
   },
   {
    "id": "chiang-mai-night-market-014",
@@ -1166,7 +1526,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=315s",
    "yt_at": 315,
    "still": "media/stills/chiang-mai-night-market-014.jpg",
-   "photo": "media/photos/chiang-mai-night-market-014.jpg"
+   "photo": "media/photos/chiang-mai-night-market-014.jpg",
+   "price": {
+    "amount": 300,
+    "currency": "THB",
+    "usd": 9
+   }
   },
   {
    "id": "chiang-mai-night-market-015",
@@ -1182,7 +1547,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=315s",
    "yt_at": 315,
    "still": "media/stills/chiang-mai-night-market-015.jpg",
-   "photo": "media/photos/chiang-mai-night-market-015.jpg"
+   "photo": "media/photos/chiang-mai-night-market-015.jpg",
+   "price": {
+    "amount": 200,
+    "currency": "THB",
+    "usd": 6
+   }
   },
   {
    "id": "chiang-mai-night-market-017",
@@ -1198,7 +1568,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=325s",
    "yt_at": 325,
    "still": "media/stills/chiang-mai-night-market-017.jpg",
-   "photo": "media/photos/chiang-mai-night-market-017.jpg"
+   "photo": "media/photos/chiang-mai-night-market-017.jpg",
+   "price": {
+    "amount": 450,
+    "currency": "THB",
+    "usd": 13
+   }
   },
   {
    "id": "chiang-mai-night-market-018",
@@ -1214,7 +1589,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=325s",
    "yt_at": 325,
    "still": "media/stills/chiang-mai-night-market-018.jpg",
-   "photo": "media/photos/chiang-mai-night-market-018.jpg"
+   "photo": "media/photos/chiang-mai-night-market-018.jpg",
+   "price": {
+    "amount": 150,
+    "currency": "THB",
+    "usd": 4
+   }
   },
   {
    "id": "chiang-mai-night-market-019",
@@ -1230,7 +1610,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=330s",
    "yt_at": 330,
    "still": "media/stills/chiang-mai-night-market-019.jpg",
-   "photo": "media/photos/chiang-mai-night-market-019.jpg"
+   "photo": "media/photos/chiang-mai-night-market-019.jpg",
+   "price": {
+    "amount": 1800,
+    "currency": "THB",
+    "usd": 53
+   }
   },
   {
    "id": "chiang-mai-night-market-020",
@@ -1246,7 +1631,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=330s",
    "yt_at": 330,
    "still": "media/stills/chiang-mai-night-market-020.jpg",
-   "photo": "media/photos/chiang-mai-night-market-020.jpg"
+   "photo": "media/photos/chiang-mai-night-market-020.jpg",
+   "price": {
+    "amount": 180,
+    "currency": "THB",
+    "usd": 5
+   }
   },
   {
    "id": "chiang-mai-night-market-022",
@@ -1262,7 +1652,12 @@
    "youtube": "https://www.youtube.com/watch?v=hiotLNcEQzo&t=340s",
    "yt_at": 340,
    "still": "media/stills/chiang-mai-night-market-022.jpg",
-   "photo": "media/photos/chiang-mai-night-market-022.jpg"
+   "photo": "media/photos/chiang-mai-night-market-022.jpg",
+   "price": {
+    "amount": 650,
+    "currency": "THB",
+    "usd": 19
+   }
   },
   {
    "id": "kerobokan-furniture-street-001",
@@ -1278,7 +1673,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=140s",
    "yt_at": 140,
    "still": "media/stills/kerobokan-furniture-street-001.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-001.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-001.jpg",
+   "price": {
+    "amount": 6500000,
+    "currency": "IDR",
+    "usd": 399
+   }
   },
   {
    "id": "kerobokan-furniture-street-002",
@@ -1294,7 +1694,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=140s",
    "yt_at": 140,
    "still": "media/stills/kerobokan-furniture-street-002.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-002.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-002.jpg",
+   "price": {
+    "amount": 1200000,
+    "currency": "IDR",
+    "usd": 74
+   }
   },
   {
    "id": "kerobokan-furniture-street-003",
@@ -1310,7 +1715,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=140s",
    "yt_at": 140,
    "still": "media/stills/kerobokan-furniture-street-003.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-003.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-003.jpg",
+   "price": {
+    "amount": 1500000,
+    "currency": "IDR",
+    "usd": 92
+   }
   },
   {
    "id": "kerobokan-furniture-street-005",
@@ -1326,7 +1736,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=145s",
    "yt_at": 145,
    "still": "media/stills/kerobokan-furniture-street-005.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-005.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-005.jpg",
+   "price": {
+    "amount": 250000,
+    "currency": "IDR",
+    "usd": 15
+   }
   },
   {
    "id": "kerobokan-furniture-street-006",
@@ -1342,7 +1757,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=150s",
    "yt_at": 150,
    "still": "media/stills/kerobokan-furniture-street-006.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-006.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-006.jpg",
+   "price": {
+    "amount": 7500000,
+    "currency": "IDR",
+    "usd": 460
+   }
   },
   {
    "id": "kerobokan-furniture-street-007",
@@ -1358,7 +1778,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=150s",
    "yt_at": 150,
    "still": "media/stills/kerobokan-furniture-street-007.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-007.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-007.jpg",
+   "price": {
+    "amount": 5500000,
+    "currency": "IDR",
+    "usd": 337
+   }
   },
   {
    "id": "kerobokan-furniture-street-008",
@@ -1374,7 +1799,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=150s",
    "yt_at": 150,
    "still": "media/stills/kerobokan-furniture-street-008.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-008.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-008.jpg",
+   "price": {
+    "amount": 2200000,
+    "currency": "IDR",
+    "usd": 135
+   }
   },
   {
    "id": "kerobokan-furniture-street-009",
@@ -1390,7 +1820,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=155s",
    "yt_at": 155,
    "still": "media/stills/kerobokan-furniture-street-009.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-009.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-009.jpg",
+   "price": {
+    "amount": 3200000,
+    "currency": "IDR",
+    "usd": 196
+   }
   },
   {
    "id": "kerobokan-furniture-street-010",
@@ -1406,7 +1841,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=155s",
    "yt_at": 155,
    "still": "media/stills/kerobokan-furniture-street-010.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-010.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-010.jpg",
+   "price": {
+    "amount": 1400000,
+    "currency": "IDR",
+    "usd": 86
+   }
   },
   {
    "id": "kerobokan-furniture-street-011",
@@ -1422,7 +1862,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=155s",
    "yt_at": 155,
    "still": "media/stills/kerobokan-furniture-street-011.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-011.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-011.jpg",
+   "price": {
+    "amount": 4500000,
+    "currency": "IDR",
+    "usd": 276
+   }
   },
   {
    "id": "kerobokan-furniture-street-012",
@@ -1438,7 +1883,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=160s",
    "yt_at": 160,
    "still": "media/stills/kerobokan-furniture-street-012.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-012.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-012.jpg",
+   "price": {
+    "amount": 1800000,
+    "currency": "IDR",
+    "usd": 110
+   }
   },
   {
    "id": "kerobokan-furniture-street-013",
@@ -1454,7 +1904,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=160s",
    "yt_at": 160,
    "still": "media/stills/kerobokan-furniture-street-013.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-013.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-013.jpg",
+   "price": {
+    "amount": 9500000,
+    "currency": "IDR",
+    "usd": 583
+   }
   },
   {
    "id": "kerobokan-furniture-street-014",
@@ -1470,7 +1925,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=160s",
    "yt_at": 160,
    "still": "media/stills/kerobokan-furniture-street-014.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-014.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-014.jpg",
+   "price": {
+    "amount": 1100000,
+    "currency": "IDR",
+    "usd": 67
+   }
   },
   {
    "id": "kerobokan-furniture-street-015",
@@ -1486,7 +1946,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=165s",
    "yt_at": 165,
    "still": "media/stills/kerobokan-furniture-street-015.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-015.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-015.jpg",
+   "price": {
+    "amount": 4500000,
+    "currency": "IDR",
+    "usd": 276
+   }
   },
   {
    "id": "kerobokan-furniture-street-016",
@@ -1502,7 +1967,12 @@
    "youtube": "https://www.youtube.com/watch?v=NKAJzTRz-Yc&t=165s",
    "yt_at": 165,
    "still": "media/stills/kerobokan-furniture-street-016.jpg",
-   "photo": "media/photos/kerobokan-furniture-street-016.jpg"
+   "photo": "media/photos/kerobokan-furniture-street-016.jpg",
+   "price": {
+    "amount": 1600000,
+    "currency": "IDR",
+    "usd": 98
+   }
   }
  ]
 }

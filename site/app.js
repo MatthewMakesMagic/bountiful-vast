@@ -13,6 +13,14 @@
   ];
   const market = k => MARKETS.find(m => m.key === k);
   const PRICE = { budget: ['$', 'Under $50'], mid: ['$$', '$50 to $300'], premium: ['$$$', '$300 and up'] };
+  const fmtPrice = it => {
+    const pr = it.price; if (!pr) return { short: '', long: 'Price on request', local: '' };
+    const n = Number(pr.amount).toLocaleString('en-US');
+    const usd = '$' + Number(pr.usd).toLocaleString('en-US');
+    if (pr.currency === 'USD') return { short: usd, long: usd, local: '' };
+    const sym = pr.currency === 'THB' ? '\u0e3f' + n : 'Rp ' + n;
+    return { short: usd, long: sym, local: 'about ' + usd };
+  };
   let items = [];
   const byId = id => items.find(i => i.id === id);
   const view = () => $('#view');
@@ -30,7 +38,7 @@
   }
 
   function card(it) {
-    const m = market(it.market), p = PRICE[it.band] || ['', ''];
+    const m = market(it.market), p = [fmtPrice(it).short];
     return `<a class="st-card" href="#/item/${encodeURIComponent(it.id)}">
       <div class="st-card-img">${img(it)}<i>${esc(m.label)}</i></div>
       <div class="st-card-name">${esc(it.name)}</div>
@@ -76,7 +84,7 @@
     setNav('shop');
     const it = byId(id);
     if (!it) { view().innerHTML = `<main class="st-page st-wrap"><p class="st-empty">That piece is not in the catalogue. <a class="st-link" href="#/">Back to the shop</a></p></main>`; return; }
-    const m = market(it.market), p = PRICE[it.band] || ['', 'Price on request'];
+    const m = market(it.market), fp = fmtPrice(it);
     const more = items.filter(i => i.market === it.market && i.id !== it.id).slice(0, 8);
     view().innerHTML = `<main class="st-page"><div class="st-wrap">
       <div class="st-crumbs"><a href="#/">Shop</a><span>/</span><a href="#/?m=${it.market}">${esc(m.name)}</a><span>/</span><span>${esc(it.name)}</span></div>
@@ -92,7 +100,7 @@
         <div class="st-info">
           <div class="st-kicker">${esc(m.place)}</div>
           <h1>${esc(it.name)}</h1>
-          <div class="st-price">${p[0] ? `${p[0]}  ·  ${p[1]}` : p[1]}<span class="st-price-note">${p[0] ? 'Estimate' : ''}</span></div>
+          <div class="st-price">${esc(fp.long)}${fp.local ? `<span class="st-price-local">${esc(fp.local)}</span>` : ''}<span class="st-price-note">Estimated asking price</span></div>
           <div class="st-avail"><i></i>One of a kind, seen at the stall</div>
           <div class="st-actions" style="margin-top:22px"><button class="st-btn" id="reserve">Reserve this piece</button><a class="st-link" href="#/?m=${it.market}">More from this market</a></div>
           <p class="st-reserved" id="reserved" hidden>Reserved. A local scout will check it is still on the table and send you a photo before you pay.</p>
