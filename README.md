@@ -1,5 +1,7 @@
 # Bountiful on VAST: every market, searchable
 
+**Live shop: https://bountiful-vast.vercel.app**
+
 **Film a market once. Every one-of-a-kind item in it becomes a searchable catalogue entry.**
 
 The best things in the world are sold in places with no online store: a carver's stall in Ban Tawai, a

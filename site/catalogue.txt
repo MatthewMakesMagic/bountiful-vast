@@ -1,0 +1,97 @@
+B001|0|mid|Carvings & art|Wooden Figurines|wood|various natural wood tones
+B002|0|budg|Tableware|Ceramic Pots|ceramic|various colors including red, blue, green
+B003|5|mid|Carvings & art|Clay Elephant Figurine|clay|multicolored
+B004|5|budg|Mirrors & wall decor|Paper Sun Face Decoration|paper or cardboard|orange and red
+B005|10|mid|Carvings & art|Wooden Elephant Figurine|wood|natural wood with painted patterns
+B006|10|prem|Baskets & small decor|Metal Urn|metal|gold and red
+B007|15|mid|Carvings & art|Brown Wooden Elephant Figurine|wood|brown
+B008|15|mid|Carvings & art|Simple Wooden Elephant Figurine|wood|
+B009|20|mid|Carvings & art|Wooden Frog Figurine|wood|green and orange
+B010|20|mid|Carvings & art|Smooth Wooden Elephant Figurine|wood|brown
+B011|20|mid|Lighting|Wooden Lamp Base|wood|red and gold
+B012|25|prem|Baskets & small decor|Lacquered Wooden Pagoda|lacquered wood|red and gold
+B013|25|mid|Tableware|Lacquered Wooden Bowl|lacquered wood|red
+B014|25|budg|Mirrors & wall decor|Blue Hanging Decoration|fabric or paper|blue
+B015|30|mid|Carvings & art|Wooden Carved Figurine|wood|natural brown
+B016|30|budg|Mirrors & wall decor|Blue Woven Hanging Decoration|woven fabric|blue
+B017|30|mid|Baskets & small decor|Red and Gold Decorative Item|metal or plastic|red and gold
+B018|35|mid|Seating|Wooden Chair|wood|brown
+B019|35|budg|Seating|Wooden Stool|wood|brown
+B020|40|mid|Seating|Wooden Bench|wood|natural brown
+B021|40|budg|Seating|Green Plastic Stool|plastic|green
+B022|40|mid|Seating|Wooden Chair Frame|wood|
+B023|45|mid|Carvings & art|Carved Wooden Panel|wood|
+B024|50|mid|Carvings & art|Wooden Mask|wood|dark brown
+B025|50|mid|Textiles|Textile Panel|woven fabric|black with red accents
+B026|50|mid|Tableware|Wooden Tray|wood|
+B027|55|mid|Carvings & art|Large Woven Sculpture|woven fibers|brown
+B028|55|mid|Carvings & art|Small Woven Sculpture|woven fibers|brown
+B029|55|mid|Carvings & art|Medium Woven Sculpture|woven fibers|brown
+C001|0|budg|Textiles|Baseball caps|fabric|blue, red, black
+C002|0|mid|Other|Button display board|velvet|dark purple
+C003|0|budg|Other|Sonny Rollins album cover|paperboard|
+C004|5|mid|Textiles|Navy blue jersey|fabric|navy blue with red and white accents
+C005|10|mid|Lighting|Cream ceramic lamp|ceramic|cream with brown diamond pattern
+C006|10|mid|Tableware|Multicolored ice bucket|ceramic|multicolored floral pattern
+C007|10|mid|Tableware|Yellow teapot|ceramic|yellow with floral design
+C008|15|mid|Baskets & small decor|White ceramic vase|ceramic|white with brown diamond pattern
+C009|15|mid|Baskets & small decor|Blue and white vase|ceramic|blue and white with floral motifs
+C010|15|prem|Baskets & small decor|Black and gold vase|ceramic|black with gold accents
+C011|20|mid|Lighting|Black metal lamp|metal|black
+C012|20|mid|Baskets & small decor|Red ceramic vase|ceramic|red
+C013|20|mid|Baskets & small decor|Ceramic vase|ceramic|
+C014|25|mid|Other|Brown leather boot|leather|brown
+C015|25|prem|Carvings & art|Dark bronze sculpture|metal|dark bronze
+C016|25|mid|Lighting|Silver lamp base|metal|silver
+C017|30|mid|Mirrors & wall decor|Antique mirror|wood|dark brown
+C018|30|mid|Mirrors & wall decor|Antique mirror|wood|light brown
+C019|35|mid|Baskets & small decor|Brown ceramic vase|ceramic|brown
+C020|35|mid|Baskets & small decor|White ceramic vase|ceramic|white
+C021|35|budg|Tableware|Metal plate|metal|
+C022|40|mid|Tableware|Fork and knife set|metal|silver
+C023|40|mid|Tableware|Decorative plates|ceramic|yellow rim with floral pattern
+C024|45|mid|Tableware|Silverware set|metal|silver
+C025|45|mid|Tableware|White ceramic bowl|ceramic|white
+C026|45|mid|Carvings & art|Wooden sculpture|wood|dark brown
+C027|50|budg|Other|Orange book|paper|orange
+C028|50|budg|Other|Green book|paper|green
+C029|55|budg|Other|Books|paper|various
+C030|55|mid|Mirrors & wall decor|Framed artwork|paper, wood frame|
+M001|0|budg|Textiles|Cotton shorts|cotton|multicoloured
+M002|0|budg|Textiles|Yellow cotton trousers|cotton|yellow
+M003|0|budg|Textiles|Brown cotton trousers|cotton|brown
+M004|5|budg|Textiles|Khaki cotton trousers|cotton|khaki
+M005|5|budg|Textiles|White and black elephant print shirts|cotton|white with black elephant print
+M006|5|budg|Textiles|Patterned shirts||
+M007|10|mid|Mirrors & wall decor|Wooden framed picture|wood|various
+M008|10|mid|Carvings & art|Gold small statue|metal or resin|gold
+M009|15|mid|Carvings & art|Brown wooden small framed religious shrine|wood|brown
+M010|15|prem|Carvings & art|Framed painting of traditional Thai dancer|wood|brown frame, colorful painting
+M011|20|prem|Carvings & art|Brown wooden framed paintings|wood|brown
+M012|20|mid|Carvings & art|Gold figurines|metal|gold
+M013|20|budg|Other|Beaded necklaces|beads|
+M014|25|mid|Carvings & art|Gold-colored figurines|metal|gold
+M015|25|budg|Other|Gold-colored amulets|metal|gold
+M016|30|budg|Other|Price tags|paper|white with blue text
+M017|35|mid|Carvings & art|Insect specimens in frames|insect mounted on white card|various natural colors
+M018|35|budg|Tableware|Circular decorative plates|ceramic or resin|multicolored patterns
+M019|40|mid|Carvings & art|Insect specimen display cases|wood and glass|natural wood tones with white backing
+M020|40|budg|Baskets & small decor|Circular decorative items|metallic or plastic|multicolored with iridescent finishes
+M021|45|budg|Other|Calculator|plastic|light blue and yellow buttons, black display
+M022|50|mid|Carvings & art|Butterfly specimens|preserved insect wing|vibrant blue with black markings
+K001|0|mid|Tables|Brown wooden dining table|wood|brown
+K002|0|budg|Seating|Natural tan woven chair|woven rattan and wood|natural tan and brown
+K003|0|mid|Seating|Brown wooden chair with beige cushion|wood and fabric|brown frame, beige cushion
+K004|5|budg|Other|Green and purple bananas|fruit|green and purple
+K005|5|mid|Tableware|Natural brown wooden bowl|wood|natural brown
+K006|10|mid|Storage|Natural tan cane armoire|woven cane|natural tan
+K007|10|mid|Storage|Light brown wooden sideboard|solid wood|light brown
+K008|10|mid|Seating|Natural tan and light brown wooden armchair|solid wood and cane weave|natural tan and light brown
+K009|15|mid|Tables|Natural wood round table|wood|natural wood
+K010|15|budg|Seating|Natural tan and brown woven rattan chair|rattan and wood|natural tan and brown
+K011|15|prem|Seating|Black leather armchair|leather and wood|black leather, natural wood frame
+K012|20|budg|Seating|Natural woven rattan armchair|rattan|natural
+K013|20|prem|Seating|Black leather sofa|leather|black
+K014|20|mid|Tables|Natural brown round wooden side table|wood|natural brown
+K015|25|prem|Carvings & art|Gray stone statue|stone|gray
+K016|25|mid|Seating|Natural wood and pink cushion chair|wood and fabric|natural wood with pink cushion
