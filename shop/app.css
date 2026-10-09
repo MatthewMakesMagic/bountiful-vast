@@ -205,3 +205,5 @@ html, body { margin: 0; background: var(--esp); }
 .st-reserved { margin-top: 14px; font-size: 15px; color: var(--leaf); }
 .st-btn:disabled { opacity: .7; cursor: default; }
 button.st-btn { border: 0; cursor: pointer; font-family: inherit; }
+
+.is-photo { object-fit: contain !important; background: #efe8dc; }

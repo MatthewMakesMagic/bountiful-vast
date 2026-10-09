@@ -59,6 +59,30 @@
       state.items.push(...items);
     }
     state.ref = ref;
+    applyPhotos();
+  }
+
+  // ---------- studio photos: restyled heroes (GPT Image) + Bountiful's photos for matched pieces ----------
+  const HEROES = [
+    ['chelsea', /tiffany|stained|leaded/i, 'tiffany_lamp'], ['chelsea', /ceramic.*lamp|lamp.*ceramic|diamond/i, 'diamond_lamps'],
+    ['chelsea', /porcelain.*lamp|bird|floral lamp|ginger/i, 'bird_lamp'], ['chelsea', /(black|gold)[^,]*vase|vase[^,]*(black|gold)/i, 'black_gold_vase'],
+    ['chelsea', /mask/i, 'carved_mask'], ['chelsea', /carving|knife|fork|silver|cutlery|utensil/i, 'carving_set'],
+    ['chelsea', /button|pin|badge|brooch/i, 'button_tray'], ['chelsea', /painting|seascape|landscape|framed art|artwork/i, 'seascape_painting'],
+    ['chelsea', /figurine|sculpture|statue|bronze/i, 'bronze_figurine'], ['chelsea', /lamp/i, 'tiffany_lamp'],
+    ['chiangmai', /rhino|horned/i, 'rhino_beetle'], ['chiangmai', /beetle|insect|specimen|bug/i, 'beetle_case'],
+    ['chiangmai', /beetle|insect|specimen|bug/i, 'rhino_beetle'], ['chiangmai', /butterfl|moth/i, 'morpho_butterfly'],
+    ['chiangmai', /portrait|painting|framed|picture/i, 'thai_portrait'], ['chiangmai', /resin|dome|paperweight|flower/i, 'resin_domes'],
+  ];
+  function applyPhotos() {
+    for (const m of (state.ref && state.ref.markets) || []) {
+      for (const row of compareMarket(m).rows) if (row.verdict === 'f' && row.vast && !row.vast.photo && row.ref.image) row.vast.photo = row.ref.image;
+    }
+    const used = new Set();
+    for (const [mk, re, slug] of HEROES) {
+      if (used.has(slug)) continue;
+      const it = state.items.find(i => i.market === mk && !i.photo && re.test([i.name, i.material, i.description].join(' ')));
+      if (it) { it.photo = `media/hero/${slug}.jpg`; used.add(slug); }
+    }
   }
   const byId = id => state.items.find(i => i.id === id);
   const market = key => MARKETS.find(m => m.key === key);
@@ -89,6 +113,8 @@
   };
   const imgTag = (it, cls) => {
     const m = market(it.market);
+    if (it.photo) return `<img class="${cls || ''} is-photo" src="${esc(it.photo)}" alt="${esc(it.name)}" loading="lazy"
+      onerror="this.onerror=null;this.src='media/frames/${encodeURIComponent(it.id)}.jpg'" />`;
     return `<img class="${cls || ''}" src="media/frames/${encodeURIComponent(it.id)}.jpg" alt="${esc(it.name)}" loading="lazy"
       data-clip="${m ? m.clip : ''}" data-t="${(it.first + 2.5).toFixed(1)}" onerror="__bfFallback(this)" />`;
   };
@@ -196,10 +222,10 @@
     let list = state.items.slice();
     if (mk) list = list.filter(i => i.market === mk);
     if (q) list = list.map(i => [i, searchScore(i, q)]).filter(x => x[1] >= 1).sort((a, b) => b[1] - a[1]).map(x => x[0]);
-    else list.sort((a, b) => (a.market === b.market ? a.first - b.first : MARKETS.findIndex(m => m.key === a.market) - MARKETS.findIndex(m => m.key === b.market)));
+    else list.sort((a, b) => ((b.photo ? 1 : 0) - (a.photo ? 1 : 0)) || (a.market === b.market ? a.first - b.first : MARKETS.findIndex(m => m.key === a.market) - MARKETS.findIndex(m => m.key === b.market)));
     const counts = Object.fromEntries(MARKETS.map(m => [m.key, state.items.filter(i => i.market === m.key).length]));
     const heroWant = [/leather armchair/i, /ornamental lamp|lamp/i, /stone statue|statue/i, /carved wooden elephant|elephant/i, /armoire/i];
-    const heroPick = []; for (const re of heroWant) { const it = state.items.find(i => re.test(i.name) && !heroPick.includes(i)); if (it && heroPick.length < 3) heroPick.push(it); }
+    const heroPick = state.items.filter(i => i.photo && /hero/.test(i.photo)).slice(0, 3); for (const re of heroWant) { const it = state.items.find(i => re.test(i.name) && !heroPick.includes(i)); if (it && heroPick.length < 3) heroPick.push(it); }
     for (const it of state.items) { if (heroPick.length >= 3) break; if (!heroPick.includes(it)) heroPick.push(it); }
     const tab = (key, label, n) => `<button class="${mk === key ? 'is-on' : ''}" data-m="${key}">${esc(label)}<span>${n}</span></button>`;
     const pending = mk && !counts[mk] ? market(mk) : null;
@@ -350,7 +376,7 @@
     const [path, qs] = h.slice(1).split('?');
     const params = new URLSearchParams(qs || '');
     if (path.startsWith('/item/')) renderItem(decodeURIComponent(path.slice(6)));
-    else if (path === '/compare') renderCompare();
+    else if (path === '/compare') { location.hash = '#/'; return; }
     else if (path === '/how') renderHow();
     else renderShop(params);
     window.scrollTo({ top: 0 });
